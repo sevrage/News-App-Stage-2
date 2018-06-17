@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">News Feed</string>
+    <string name="no_internet">No Internet Connection.</string>
+    <string name="no_news">News not found.</string>
+
+    <string name="settings_menu_item">Settings</string>
+    <string name="settings_title">NewsFeed Settings</string>
+
+    <!-- Strings For Section Preference -->
+    <string name="settings_section_name_label">Section Name</string>
+    <string name="settings_section_name_key" translatable="false">section</string>
+    <string name="settings_section_name_default" translatable="false">science</string>
+
+    <string name="settings_section_science_label">Science</string>
+    <string name="settings_section_science_value" translatable="false">science</string>
+    <string name="settings_section_tech_label">Tech</string>
+    <string name="settings_section_tech_value" translatable="false">technology</string>
+    <string name="settings_section_world_label">World News</string>
+    <string name="settings_section_world_value" translatable="false">world</string>
+    <string name="settings_section_environment_label">Environment</string>
+    <string name="settings_section_environment_value" translatable="false">environment</string>
+    
+    <!-- Strings For Order-By Preference -->
+    <string name="settings_order_by_label">Order By</string>
+    <string name="settings_order_by_key" translatable="false">order_by</string>
+    <string name="settings_order_by_default" translatable="false">@string/settings_order_by_newest_value</string>
+
+    <string name="settings_order_by_newest_label">Newest</string>
+    <string name="settings_order_by_newest_value" translatable="false">newest</string>
+    <string name="settings_order_by_oldest_label">Oldest</string>
+    <string name="settings_order_by_oldest_value" translatable="false">oldest</string>
+    <string name="settings_order_by_relevance_label">Relevance</string>
+    <string name="settings_order_by_relevance_value" translatable="false">relevance</string>
+</resources>
