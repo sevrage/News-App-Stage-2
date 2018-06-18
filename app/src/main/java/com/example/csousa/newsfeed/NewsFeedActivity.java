@@ -155,7 +155,11 @@ public class NewsFeedActivity extends AppCompatActivity implements LoaderManager
 
         //newest, oldest, relevance
         uriBuilder.appendQueryParameter("order-by", orderBy);
-        uriBuilder.appendQueryParameter("api-key", BuildConfig.GUARDIAN_API_KEY);
+
+        // use BuildConfig.GUARDIAN_API_KEY for API KEY
+        // setup C:\Users\<Your Username>\.gradle\gradle.properties GuardianApiKey="test"
+        // and uncomment build.gradle api key var name setup
+        uriBuilder.appendQueryParameter("api-key", "test");
 
         // Return the completed uri
         return new NewsFeedLoader(this, uriBuilder.toString());
